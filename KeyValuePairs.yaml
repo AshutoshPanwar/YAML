@@ -1,0 +1,5 @@
+# Key value pairs in Yaml
+
+app: user-autentication # Value type -> String
+port: 9000 # Value type -> Int
+version: 1.7 # Value type -> Float
