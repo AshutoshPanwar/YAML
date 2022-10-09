@@ -1,0 +1,5 @@
+microservice: # This become object.
+    # These all are the attributes of object.
+    app: user-autentication
+    port: 9000
+    version: 1.7
