@@ -1,0 +1,8 @@
+microservice: # This is the list
+    # These are list items (-)
+    - app: user-autentication
+    - port: 9000
+      version: # This can also be written as [0.9, 2.0, 2.1]
+          - 1.9
+          - 2.0
+          - 2.1
