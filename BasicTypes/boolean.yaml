@@ -1,0 +1,6 @@
+microservice: # This is a object.
+    - app: user-autentication
+      port: 9000
+      version: 1.7
+      # -------- Yaml accepts boolean as (on, off, yes, no) --------
+      deployed: on
