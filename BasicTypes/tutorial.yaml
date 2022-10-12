@@ -1,0 +1,25 @@
+# -------- List of objects --------
+microservice:
+    - app: user-autentication
+      port: 900
+      version: 1.7
+    - app: shopping cart
+      port: 9002
+      version: 2.0
+
+NestedList:
+    - app: user-autentication
+      port: 900
+      version: 1.7
+    - app: shopping cart
+      port: 9002
+      # -------- Nested list --------
+      version:
+          - 2.0
+          - 2.1
+          - 2.2
+
+# -------- List of simple values --------
+microservices:
+    - user-autentication
+    - shopping cart
