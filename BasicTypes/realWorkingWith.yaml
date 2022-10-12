@@ -1,0 +1,17 @@
+# K8's pod configuration
+
+apiVersion: v1 # Key-Value Pairs
+Kind: pod # Key-Value Pairs
+metadata: # Object
+    name: nginx # Key-Value pair
+    labels: # Object
+        app: nginx # Key-Value pair
+spec:
+    containers: # List of objects
+        - name: nginx-container
+          image: nginx
+          ports: # List
+              - contianerPort: 80
+                volumeMount: # List of object
+                    - name: nginx-vol
+                      mountPath: /usr/nginx/html
