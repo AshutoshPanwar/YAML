@@ -1,0 +1,9 @@
+multiLineStrings: | # (|) to display it in muliple lines
+    This is a multiline string
+    this second line
+    etc...
+
+singleLineString: > # (>) to display it in single line
+    This is a sing line string,
+    We break it into small parts.
+    and so onn.
