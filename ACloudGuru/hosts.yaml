@@ -1,0 +1,26 @@
+host: phl-42 # At lest single white space is very important in key-value pair
+datacenter:
+    # This is block style in yaml
+    location: Philadelphia
+    cab: 13
+    cap_unit: 3
+    # This would be the flow sytle
+    # { location: Philadelphia, cab: 13, cap_unit: 3 }
+
+roles: # Sequences in yaml
+    # Block Style
+    - WebServer
+    - Wp-database
+    # Flow style
+    # [ WebServer, Wp-database ]
+
+# Multi-Line comments (will be printed as it is.)
+downtime_sch: |
+    2018-10-01 - Kernel Upgrade
+    2019-02-02 - security fix
+
+# Single line comment (will print output in a single line)
+comments: >
+    Experiencing high I/O
+    since 2018-10-24
+    Currentyle Investigationg.
